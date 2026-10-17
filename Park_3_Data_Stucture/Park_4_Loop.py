@@ -14,7 +14,21 @@ for value in makanan:
 print("======While Loop======")
 # While loop
 # Saat kita tau kapan kita berhenti tapi tau jalan atau start nya di mana 
-nomor = 1
+nomor = 11
 while nomor <= 10:
     print(f"Index of : {nomor}")
     nomor += 1
+
+print("====break and continue====")
+nomer = 1
+while nomer <= 100:
+    if nomer % 2 == 0 : 
+        nomer += 1
+        continue
+
+    if nomer >= 20 :
+        nomer += 1
+        break
+
+    print(f"Index of {nomer}")
+    nomer += 1
