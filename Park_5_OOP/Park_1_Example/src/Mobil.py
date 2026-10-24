@@ -14,6 +14,9 @@ class Mobil:
         self.tipe_mobil = tipe_mobil
         self.warna = warna
     # Method atau fungsi
+    # Enkapsulasi
+    # get and set
+    # get di untuk ambil data
     def getProfile(self):
         print(f"Merek\t\t: {self.merek}")
         print(f"Type\t\t: {self.tipe_mobil}")
@@ -22,3 +25,6 @@ class Mobil:
         print(f"Interior\t: {self.__kursi}")
         print(f"Veleg\t\t: {self.veleg}")
         print("===========")
+    # set di gunakan untuk merubah data
+    def setCC_Mobil(self,new_cc):
+        self._cc_mobil = new_cc
